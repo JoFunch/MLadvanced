@@ -20,16 +20,16 @@ The optimiser used is Stochastic gradient descent for its computational advantag
 as mentioned, during training, in order to compute loss, the images were upscaled to match the array-sizes of the labels (full image in this case. I didnt downscale which, retrospectively, was a mistake). This upscaling was doing both during the training, testing and predicting since it was the only way to get a pixel-for-pixel estimation.
 
 model 1 Loss:
-Epoch [1/10], Loss: 0.5863032937049866
-Epoch [2/10], Loss: 0.21119970083236694
-Epoch [3/10], Loss: 0.048833709210157394
-Epoch [4/10], Loss: 0.02527598664164543
-Epoch [5/10], Loss: 0.04726000502705574
-Epoch [6/10], Loss: 0.030520491302013397
-Epoch [7/10], Loss: 0.019646162167191505
-Epoch [8/10], Loss: 0.02794039621949196
-Epoch [9/10], Loss: 0.009800591506063938
-Epoch [10/10], Loss: 0.024047497659921646
+- Epoch [1/10], Loss: 0.5863032937049866
+- Epoch [2/10], Loss: 0.21119970083236694
+- Epoch [3/10], Loss: 0.048833709210157394
+- Epoch [4/10], Loss: 0.02527598664164543
+- Epoch [5/10], Loss: 0.04726000502705574
+- Epoch [6/10], Loss: 0.030520491302013397
+- Epoch [7/10], Loss: 0.019646162167191505
+- Epoch [8/10], Loss: 0.02794039621949196
+- Epoch [9/10], Loss: 0.009800591506063938
+- Epoch [10/10], Loss: 0.024047497659921646
 
 
 
@@ -37,11 +37,11 @@ The second model had more weight on the convolutional layers to see what the dif
 
 
 model 2 Loss:
-Epoch [1/5], Loss: 0.286181777715683
-Epoch [2/5], Loss: 0.24633407592773438
-Epoch [3/5], Loss: 0.18563270568847656
-Epoch [4/5], Loss: 0.27632713317871094
-Epoch [5/5], Loss: 0.3473043441772461
+- Epoch [1/5], Loss: 0.286181777715683
+- Epoch [2/5], Loss: 0.24633407592773438
+- Epoch [3/5], Loss: 0.18563270568847656
+- Epoch [4/5], Loss: 0.27632713317871094
+- Epoch [5/5], Loss: 0.3473043441772461
 
 
 
@@ -53,12 +53,12 @@ I am also running a loss-function during the testing. I am doing so simply to ma
 It was my ambition and intent to try and see how the Loss here would perform. It is obviously not something which is required (strictly speaking) in the testing phase, but since i experience error in my testing phase, I thought it could share light on the issue.
 
 Model 1 Loss
-Round of loss:  0.08400718122720718
-Round of loss:  0.04109744355082512
-Round of loss:  0.016097912564873695
-Round of loss:  0.015201829373836517
+- Round of loss:  0.08400718122720718
+- Round of loss:  0.04109744355082512
+- Round of loss:  0.016097912564873695
+- Round of loss:  0.015201829373836517
 Model 1 Acc
-Accuracy: 0.33
+- Accuracy: 0.33
 
 Model 2 Loss
 Loss:  0.07238388061523438
